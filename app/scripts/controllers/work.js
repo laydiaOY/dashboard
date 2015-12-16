@@ -56,8 +56,8 @@ app.controller("ImageController", ['$scope', '$http', '$filter',
 
 
         var orderBy = $filter('orderBy');
-        $scope.order = function(predicate, reverse) {
-            $scope.display_images = orderBy($scope.display_images, predicate, reverse);
+        $scope.order = function(predicate) {
+            $scope.display_images = orderBy($scope.display_images, predicate);
         };
     }
 

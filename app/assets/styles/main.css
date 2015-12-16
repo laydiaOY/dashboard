@@ -1,7 +1,7 @@
 @media screen and (max-width: 1070px) {
     #root_content {
         float: none;
-        width: 100%;
+        /*width: 100%;*/
     }
     #root_siderbar {
         float: none;
